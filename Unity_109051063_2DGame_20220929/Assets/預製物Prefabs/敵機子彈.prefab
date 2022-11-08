@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 8872516039645668668}
   - component: {fileID: 8872516039645668669}
   - component: {fileID: 245191796307006411}
-  - component: {fileID: 3477869342247222467}
-  - component: {fileID: 8952428763611286667}
-  m_Layer: 7
-  m_Name: "\u5B50\u5F48"
+  - component: {fileID: -9016499443360206509}
+  - component: {fileID: 3565248524707982549}
+  m_Layer: 8
+  m_Name: "\u6575\u6A5F\u5B50\u5F48"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -78,7 +78,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 12291d9aa888b41c58f66187eb386317, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.01978819, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -124,7 +124,7 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 1.3571428, y: 0.42857143}
   m_Direction: 1
---- !u!50 &3477869342247222467
+--- !u!50 &-9016499443360206509
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
@@ -145,7 +145,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!247 &8952428763611286667
+--- !u!247 &3565248524707982549
 ConstantForce2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -154,5 +154,5 @@ ConstantForce2D:
   m_GameObject: {fileID: 8872516039645668670}
   m_Enabled: 1
   m_Force: {x: 0, y: 0}
-  m_RelativeForce: {x: 20, y: 0}
+  m_RelativeForce: {x: 10, y: 0}
   m_Torque: 0
